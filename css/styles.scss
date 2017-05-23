@@ -1,4 +1,22 @@
-/* Styling */
+/* Styling. Grand Central Station. */
+// Imports
+@import "normalize";
+@import "lightgallery";
+@import "lg-transitions";
+
+
 body {
-    background: red;
+    background: #faf6f6;
+}
+
+// Portfolio Items
+figure {
+    background: seagreen;
+    padding: 1em;
+    text-align: center;
+    width: 300px;
+}
+
+figure img {
+    box-shadow: 2px 2px 2px gray;
 }
