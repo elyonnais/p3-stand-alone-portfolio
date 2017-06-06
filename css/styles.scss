@@ -5,18 +5,48 @@
 @import "lg-transitions";
 
 
+@import url('https://fonts.googleapis.com/css?family=Poppins');
+    
+/* Google Font */
+body {
+    font-family: 'Poppins', sans-serif;
+     margin: 0;
+}
+
+h4 {
+   font-size: .8em;
+    
+}
+
 body {
     background: #faf6f6;
 }
 
+
+
+
+/*Portfolio */
+
+
+main {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-around;
+    align-items: center;
+
+}
+
+main img {
+    display: flex;
+    box-shadow: none; 
+    max-width: 250px;
+   
+    
+}
+
 // Portfolio Items
 figure {
-    background: seagreen;
     padding: 1em;
     text-align: center;
     width: 300px;
-}
-
-figure img {
-    box-shadow: 2px 2px 2px gray;
 }
