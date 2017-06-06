@@ -1,7 +1,7 @@
 // Scripts
 
 // Lightgallery
-$('figure').lightGallery({
+$('main').lightGallery({
     selector: 'a',
     mode: 'lg-lollipop'
 });

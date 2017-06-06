@@ -2593,38 +2593,52 @@ body:not(.lg-from-hash) .lg-outer.lg-start-zoom .lg-item.lg-complete .lg-object 
   transition: transform 1s cubic-bezier(0, 0, 0.25, 1) 0s, opacity 0.1s ease 0s; }
 
 /*# sourceMappingURL=lg-transitions.css.map */
-/* Google Font */
-/* line 11, /Users/emilylyonnais/Documents/GitHub/p3-stand-alone-portfolio/css/styles.scss */
+/*
+Color Palette
+    1 - #c9596b
+    2 - #243745
+    3 - #6b8048
+    4 - #65a69e
+    5 - #eab721
+*/
+/* line 23, /Users/emilylyonnais/Documents/GitHub/p3-stand-alone-portfolio/css/styles.scss */
 body {
   font-family: 'Poppins', sans-serif;
-  margin: 0; }
+  margin: 0;
+  background: #fff; }
 
-/* line 16, /Users/emilylyonnais/Documents/GitHub/p3-stand-alone-portfolio/css/styles.scss */
+/* line 29, /Users/emilylyonnais/Documents/GitHub/p3-stand-alone-portfolio/css/styles.scss */
+h1 {
+  font-size: 1.5em;
+  /* 48px / 16px = 3em */
+  text-align: center; }
+
+/* line 34, /Users/emilylyonnais/Documents/GitHub/p3-stand-alone-portfolio/css/styles.scss */
 h4 {
   font-size: .8em; }
 
-/* line 21, /Users/emilylyonnais/Documents/GitHub/p3-stand-alone-portfolio/css/styles.scss */
-body {
-  background: #faf6f6; }
-
-/*Portfolio */
-/* line 31, /Users/emilylyonnais/Documents/GitHub/p3-stand-alone-portfolio/css/styles.scss */
+/* line 43, /Users/emilylyonnais/Documents/GitHub/p3-stand-alone-portfolio/css/styles.scss */
 main {
   display: flex;
   flex-flow: row wrap;
   justify-content: space-around;
   align-items: center; }
 
-/* line 39, /Users/emilylyonnais/Documents/GitHub/p3-stand-alone-portfolio/css/styles.scss */
+/* line 51, /Users/emilylyonnais/Documents/GitHub/p3-stand-alone-portfolio/css/styles.scss */
 main img {
-  display: flex;
   box-shadow: none;
-  max-width: 250px; }
+  max-width: 250px;
+  align-items: center; }
 
-/* line 48, /Users/emilylyonnais/Documents/GitHub/p3-stand-alone-portfolio/css/styles.scss */
+/* line 60, /Users/emilylyonnais/Documents/GitHub/p3-stand-alone-portfolio/css/styles.scss */
 figure {
   padding: 1em;
   text-align: center;
   width: 300px; }
+
+/* line 71, /Users/emilylyonnais/Documents/GitHub/p3-stand-alone-portfolio/css/styles.scss */
+.main-footer {
+  text-align: center;
+  font-size: 75%; }
 
 /*# sourceMappingURL=styles.css.map */
