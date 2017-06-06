@@ -26,6 +26,7 @@ body {
 h1 {
 	font-size: 1.5em; /* 48px / 16px = 3em */
 	text-align: center;
+    margin: 2em;
 }
 
 h4 {
@@ -71,3 +72,22 @@ figure {
    
    
 }
+
+// Media Queries
+
+// Tablet 
+@media only screen and (min-width: 48em)
+ and (max-width: 63.9375em){
+     
+     h1 {
+        font-size: 2.5em;
+     }}
+
+
+// Desktop
+@media only screen and (min-width: 64em) {
+
+
+h1 {
+        font-size: 2.5em;
+    } }

@@ -598,7 +598,7 @@ template {
   background-color: rgba(0, 0, 0, 0.45);
   bottom: 0;
   color: #EEE;
-  font-size: 16px;
+  font-size: 12px;
   left: 0;
   padding: 10px 40px;
   position: fixed;
@@ -609,7 +609,7 @@ template {
 /* line 201, /Users/emilylyonnais/Documents/GitHub/p3-stand-alone-portfolio/css/_lightgallery.css */
 .lg-sub-html h4 {
   margin: 0;
-  font-size: 13px;
+  font-size: 12px;
   font-weight: bold; }
 
 /* line 206, /Users/emilylyonnais/Documents/GitHub/p3-stand-alone-portfolio/css/_lightgallery.css */
@@ -2611,34 +2611,45 @@ body {
 h1 {
   font-size: 1.5em;
   /* 48px / 16px = 3em */
-  text-align: center; }
+  text-align: center;
+  margin: 2em; }
 
-/* line 31, /Users/emilylyonnais/Documents/GitHub/p3-stand-alone-portfolio/css/styles.scss */
+/* line 32, /Users/emilylyonnais/Documents/GitHub/p3-stand-alone-portfolio/css/styles.scss */
 h4 {
   font-size: .8em; }
 
-/* line 40, /Users/emilylyonnais/Documents/GitHub/p3-stand-alone-portfolio/css/styles.scss */
+/* line 41, /Users/emilylyonnais/Documents/GitHub/p3-stand-alone-portfolio/css/styles.scss */
 main {
   display: flex;
   flex-flow: row wrap;
   justify-content: space-around;
   align-items: center; }
 
-/* line 48, /Users/emilylyonnais/Documents/GitHub/p3-stand-alone-portfolio/css/styles.scss */
+/* line 49, /Users/emilylyonnais/Documents/GitHub/p3-stand-alone-portfolio/css/styles.scss */
 main img {
   box-shadow: none;
   max-width: 250px;
   align-items: center; }
 
-/* line 57, /Users/emilylyonnais/Documents/GitHub/p3-stand-alone-portfolio/css/styles.scss */
+/* line 58, /Users/emilylyonnais/Documents/GitHub/p3-stand-alone-portfolio/css/styles.scss */
 figure {
   padding: 1em;
   text-align: center;
   width: 300px; }
 
-/* line 68, /Users/emilylyonnais/Documents/GitHub/p3-stand-alone-portfolio/css/styles.scss */
+/* line 69, /Users/emilylyonnais/Documents/GitHub/p3-stand-alone-portfolio/css/styles.scss */
 .main-footer {
   text-align: center;
   font-size: 75%; }
+
+@media only screen and (min-width: 48em) and (max-width: 63.9375em) {
+  /* line 82, /Users/emilylyonnais/Documents/GitHub/p3-stand-alone-portfolio/css/styles.scss */
+  h1 {
+    font-size: 2.5em; } }
+
+@media only screen and (min-width: 64em) {
+  /* line 91, /Users/emilylyonnais/Documents/GitHub/p3-stand-alone-portfolio/css/styles.scss */
+  h1 {
+    font-size: 2.5em; } }
 
 /*# sourceMappingURL=styles.css.map */
