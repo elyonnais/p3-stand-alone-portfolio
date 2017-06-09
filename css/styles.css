@@ -2612,44 +2612,96 @@ h1 {
   font-size: 1.5em;
   /* 48px / 16px = 3em */
   text-align: center;
-  margin: 2em; }
+  margin: 22.08px; }
 
-/* line 32, /Users/emilylyonnais/Documents/GitHub/p3-stand-alone-portfolio/css/styles.scss */
+/* line 33, /Users/emilylyonnais/Documents/GitHub/p3-stand-alone-portfolio/css/styles.scss */
 h4 {
   font-size: .8em; }
 
-/* line 41, /Users/emilylyonnais/Documents/GitHub/p3-stand-alone-portfolio/css/styles.scss */
+/* line 42, /Users/emilylyonnais/Documents/GitHub/p3-stand-alone-portfolio/css/styles.scss */
 main {
   display: flex;
   flex-flow: row wrap;
   justify-content: space-around;
   align-items: center; }
 
-/* line 49, /Users/emilylyonnais/Documents/GitHub/p3-stand-alone-portfolio/css/styles.scss */
+/* line 50, /Users/emilylyonnais/Documents/GitHub/p3-stand-alone-portfolio/css/styles.scss */
 main img {
   box-shadow: none;
   max-width: 250px;
   align-items: center; }
 
-/* line 58, /Users/emilylyonnais/Documents/GitHub/p3-stand-alone-portfolio/css/styles.scss */
+/* line 59, /Users/emilylyonnais/Documents/GitHub/p3-stand-alone-portfolio/css/styles.scss */
 figure {
   padding: 1em;
   text-align: center;
   width: 300px; }
 
-/* line 69, /Users/emilylyonnais/Documents/GitHub/p3-stand-alone-portfolio/css/styles.scss */
+/* line 68, /Users/emilylyonnais/Documents/GitHub/p3-stand-alone-portfolio/css/styles.scss */
+nav ul {
+  display: flex;
+  justify-content: center;
+  /* Experiment with `justify-content` */ }
+
+/* line 74, /Users/emilylyonnais/Documents/GitHub/p3-stand-alone-portfolio/css/styles.scss */
+nav ul {
+  margin: 0;
+  padding: 0; }
+
+/* line 79, /Users/emilylyonnais/Documents/GitHub/p3-stand-alone-portfolio/css/styles.scss */
+nav li {
+  font-size: .5em;
+  line-height: 1.5em;
+  list-style: none; }
+
+/* line 85, /Users/emilylyonnais/Documents/GitHub/p3-stand-alone-portfolio/css/styles.scss */
+nav a:link,
+nav a:visited {
+  color: #000;
+  display: block;
+  padding: .5em;
+  margin: .5em;
+  text-decoration: none;
+  /* Override Text Links */
+  border-bottom: none; }
+
+/* line 97, /Users/emilylyonnais/Documents/GitHub/p3-stand-alone-portfolio/css/styles.scss */
+nav a:hover,
+nav a:active {
+  color: #fff;
+  background: #65a69e;
+  border-radius: 2.5px;
+  transition: background .5s, border-radius 1s; }
+
+/* line 110, /Users/emilylyonnais/Documents/GitHub/p3-stand-alone-portfolio/css/styles.scss */
+.main-footer img,
+.main-footer a:active,
+.main-footer a:hover {
+  box-shadow: none;
+  height: 45px;
+  margin: 0 5px 6px 5px;
+  width: 45px;
+  border-bottom: none; }
+
+/* line 122, /Users/emilylyonnais/Documents/GitHub/p3-stand-alone-portfolio/css/styles.scss */
 .main-footer {
   text-align: center;
   font-size: 75%; }
 
 @media only screen and (min-width: 48em) and (max-width: 63.9375em) {
-  /* line 82, /Users/emilylyonnais/Documents/GitHub/p3-stand-alone-portfolio/css/styles.scss */
+  /* line 134, /Users/emilylyonnais/Documents/GitHub/p3-stand-alone-portfolio/css/styles.scss */
   h1 {
-    font-size: 2.5em; } }
+    font-size: 2.5em; }
+  /* line 138, /Users/emilylyonnais/Documents/GitHub/p3-stand-alone-portfolio/css/styles.scss */
+  nav li {
+    font-size: .8em; } }
 
 @media only screen and (min-width: 64em) {
-  /* line 91, /Users/emilylyonnais/Documents/GitHub/p3-stand-alone-portfolio/css/styles.scss */
+  /* line 148, /Users/emilylyonnais/Documents/GitHub/p3-stand-alone-portfolio/css/styles.scss */
   h1 {
-    font-size: 2.5em; } }
+    font-size: 2.5em; }
+  /* line 152, /Users/emilylyonnais/Documents/GitHub/p3-stand-alone-portfolio/css/styles.scss */
+  nav li {
+    font-size: .8em; } }
 
 /*# sourceMappingURL=styles.css.map */

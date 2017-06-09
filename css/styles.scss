@@ -26,7 +26,8 @@ body {
 h1 {
 	font-size: 1.5em; /* 48px / 16px = 3em */
 	text-align: center;
-    margin: 2em;
+    margin: 22.08px
+
 }
 
 h4 {
@@ -62,14 +63,65 @@ figure {
 }
 
 
+// Main Navigation
+
+nav ul {
+    display: flex;
+    justify-content: center;
+  /* Experiment with `justify-content` */
+}
+
+nav ul {
+    margin: 0;
+    padding: 0;
+}
+
+nav li {
+    font-size: .5em;
+	line-height: 1.5em;
+    list-style: none;
+}
+
+nav a:link, 
+nav a:visited {
+  color: #000;
+  display: block;
+  padding: .5em;
+  margin: .5em;
+  text-decoration: none;
+  
+  /* Override Text Links */
+  border-bottom: none;
+}
+
+nav a:hover,
+nav a:active {
+  color: #fff;
+  background: #65a69e;
+  border-radius: 2.5px;
+  transition: 
+    background .5s,
+    border-radius 1s;
+}
 
 
 // Footer
 
+.main-footer img, 
+.main-footer a:active, 
+.main-footer a:hover {
+    box-shadow: none;
+    height: 45px;
+    margin: 0 5px 6px 5px;
+    width: 45px;
+    border-bottom: none;
+
+    
+}
+
 .main-footer {
     text-align: center;
     font-size: 75%;
-   
    
 }
 
@@ -79,15 +131,27 @@ figure {
 @media only screen and (min-width: 48em)
  and (max-width: 63.9375em){
      
-     h1 {
+    h1 {
         font-size: 2.5em;
-     }}
-
+     }
+    
+    nav li {
+    font-size: .8em;
+    }
+     
+    }
 
 // Desktop
 @media only screen and (min-width: 64em) {
 
 
-h1 {
+    h1 {
         font-size: 2.5em;
-    } }
+    } 
+
+    nav li {
+    font-size: .8em;
+
+    }
+    
+    }
