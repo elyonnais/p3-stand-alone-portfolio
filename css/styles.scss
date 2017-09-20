@@ -62,7 +62,15 @@ figure {
     width: 300px;
 }
 
+GoogleDoodle {
+    padding: 1em;
+    text-align: center;
+    width: 1200px;
+}
 
+GoogleDoodle img {
+    max-width: 500px;
+}
 // Main Navigation
 
 nav ul {
@@ -104,6 +112,24 @@ nav a:active {
     border-radius 1s;
 }
 
+// Click Here link
+
+h4 a:link, 
+h4 a:visited {
+	color: #c9596b;
+	text-decoration: none;
+}
+
+h4 a:focus {
+  background: #eab721;  
+  color: #c9596b;
+}
+
+h4 a:hover, 
+h4 a:active {
+	color: #eab721;
+	border-bottom: 4px double #6d6e71;
+}
 
 // Footer
 
