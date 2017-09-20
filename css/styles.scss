@@ -31,6 +31,7 @@ h1 {
 }
 
 h4 {
+    text-align: center;
    font-size: .8em;
 }
 
@@ -62,15 +63,25 @@ figure {
     width: 300px;
 }
 
-GoogleDoodle {
-    padding: 1em;
-    text-align: center;
+GoogleDoodle figure {
     width: 1200px;
+    margin-bottom: 0;
 }
 
 GoogleDoodle img {
     max-width: 500px;
 }
+
+GoogleDoodle h4 {
+    margin-bottom: 0;
+}
+
+clickhere h4 {
+   margin-top: 0;
+    padding-bottom: 2em;
+}
+
+
 // Main Navigation
 
 nav ul {
